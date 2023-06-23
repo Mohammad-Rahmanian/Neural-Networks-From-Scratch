@@ -1,7 +1,3 @@
-<div align="center">
-  <h1>In The Name Of GOD</h1>
-</div>
-
 # Artificial Neural Networks and Computational Intelligence - Amirkabir University of Technology
 
 Welcome to the repository for Artificial Neural Networks and Computational Intelligence course at AUT. This course provides an in-depth overview of Artificial Neural Networks and its applications in Computational Intelligence.
