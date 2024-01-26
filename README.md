@@ -26,4 +26,4 @@ This project is part of the Computational Intelligence curriculum, and it involv
 To use this project, you will need to have a basic understanding of Python and neural network concepts. The `housepriceprediction.py` script demonstrates how to apply the neural network for a house price prediction task.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
