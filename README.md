@@ -1,38 +1,29 @@
-# Artificial Neural Networks and Computational Intelligence - Amirkabir University of Technology
+# Computational Intelligence Project: Neural Network Implementation
 
-Welcome to the repository for Artificial Neural Networks and Computational Intelligence course at AUT. This course provides an in-depth overview of Artificial Neural Networks and its applications in Computational Intelligence.
+## About the Project
+This project is part of the Computational Intelligence curriculum, and it involves implementing a neural network from scratch without the use of high-level libraries. The main focus is on understanding the inner workings of neural networks, including forward and backward propagation, activation functions, optimization algorithms, and loss computations.
 
-## Course Outline
-* Introduction to Artificial Neural Networks
-* Neural Network Architecture
-* Backpropagation Algorithm
-* Convolutional Neural Networks
-* Recurrent Neural Networks
-* Applications of Artificial Neural Networks in Computational Intelligence
+## Project Structure
 
-## Prerequisites
-* Basic understanding of linear algebra and calculus
-* Knowledge of Python programming language
-* Familiarity with machine learning concepts
+### Layers
+- **Convolution2D**: Implements the 2D convolutional layer for processing two-dimensional data like images.
+- **FullyConnected**: A fully connected layer that connects each neuron to all neurons in the previous layer.
+- **MaxPooling2D**: A max pooling layer that reduces the spatial size of the input to decrease the amount of parameters and computation.
 
-## Requirements
-* A computer with a recent version of Python and Jupyter Notebook installed
-* A copy of the course materials, available in this repository
+### Loss Functions
+- **BinaryCrossEntropy**: For binary classification tasks, calculates the loss between the predicted and actual labels.
+- **MeanSquaredError**: For regression tasks, computes the mean of the squares of the differences between predicted and actual values.
 
-## Getting Started
-1. Clone this repository to your local machine using the following command:
-```bash
-git clone https://github.com/FarshidNooshi/ArtificialNeuralNetworks-ComputationalIntelligence-AUT.git
-```
-2. Navigate to the repository directory:
-```bash
-cd ArtificialNeuralNetworks-ComputationalIntelligence-AUT
-```
-3. Open Jupyter Notebook and start exploring the course materials.
+### Optimizers
+- **Adam**: An optimizer with an adaptive learning rate that's commonly used for deep neural networks.
+- **GradientDescent**: The standard optimization algorithm for training neural networks using gradient descent.
 
-## Contribution
-If you find any errors or have suggestions for improvements, please feel free to create an issue or pull request. Your contributions are greatly appreciated!
+### Activation Functions
+- **Sigmoid**: A sigmoid activation function that squashes the input values between 0 and 1.
+- **ReLU**: The Rectified Linear Unit (ReLU) activation function that introduces non-linearity into the model.
+
+## Usage
+To use this project, you will need to have a basic understanding of Python and neural network concepts. The `housepriceprediction.py` script demonstrates how to apply the neural network for a house price prediction task.
 
 ## License
-This course material is made available under the [MIT License](https://opensource.org/licenses/MIT).
-
+This project is licensed under the MIT License - see the LICENSE file for details.
